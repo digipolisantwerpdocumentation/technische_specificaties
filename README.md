@@ -49,7 +49,7 @@ We zoomen hieronder in op enkele engines:
 Alle data en functionaliteiten van de oplossing zijn aanspreekbaar en integreerbaar via API’s. Op die manier wordt de innovatieve front-end volledig afgescheiden van de back-end services. De oplossing hergebruikt maximaal de ACPaaS engines en koppelt met de Centrale Referentie Systemen (CRS) als databronnen. **Alle communicatie tussen engines gebeurt steeds via de API/SDK engine.** Elke API wordt aangeboden via de API/SDK engine en dient daartoe in het **Swagger v2** formaat gedefinieerd te worden. 
 
 #### 1.2.3. A-Profiel en M-Profiel ()
-voor gebruikerstoegang en voor het ophalen en opslaan van gebruikersattributen dient het A-profiel (burgers) en M-profiel (medewerkers) te worden hergebruikt. De documentatie voor integratie van de A-profiel en M-profiel login met consent via **oAuth2** is hier terug te vinden: https://goo.gl/7wqo13 [publiek]. Daarnaast is voor het **M**-profiel authenticatie mogelijk via **SAML2** (conform de specificaties).
+voor gebruikerstoegang en voor het ophalen en opslaan van gebruikersattributen dient het A-profiel (burgers) en M-profiel (medewerkers) te worden hergebruikt. De documentatie voor integratie van de A-profiel en M-profiel login met consent via **oAuth2** is hier terug te vinden: https://goo.gl/7wqo13 [**publiek**]. Daarnaast is voor het **M**-profiel authenticatie mogelijk via **SAML2** (conform de specificaties).
 
 ### 1.3. Microservice Architectuur (**V**)
 #### 1.3.1. Algemeen
@@ -70,9 +70,9 @@ Elke microservice:
 #### 1.3.2. Versioning (**V**)
 Volgens de semantic versioning principes (http://semver.org/ [**publiek**]). 
 #### 1.3.3. API Requirements (**V**)
-api design-requirements: https://github.com/digipolisantwerpdocumentation/api-requirements[**publiek**]
+api design-requirements: https://github.com/digipolisantwerpdocumentation/api-requirements [**publiek**]
 #### 1.3.4. API monitoring (**V**)
-Status call te voorzien voor elke API, zodat deze kan opgenomen worden de status monitor (https://status-o.antwerpen.be/ [**VPN**]).
+Status call te voorzien voor elke API, zodat deze kan opgenomen worden in de status monitor (https://status-o.antwerpen.be/ [**VPN**]).
 #### 1.3.5. Logging (**V**)
 Logging is verplicht te voorzien voor alle cron jobs en voor privacy gevoelige info.
 Hiervoor dient de AcPaaS logging engine gebruikt te worden:
@@ -107,7 +107,7 @@ https://acpaas-ui.digipolis.be/docs/guidelines [**MW**].
 Het gebruik van **ESLint** is verplicht, de parameters worden door Digipolis voorzien.
 
 #### 2.2.4. Angular component bibliotheek (**V**)
-Er is een gebruiksklare bibliotheek beschikbaar met de meestgebruikte UI componenten in de laatste stabiele Angular versie. Alle componenten worden gepubliceerd op https://nexusrepo.antwerpen.be [**VPN**] en zijn voorzien van de nodige documentatie in de code repositories op Bitbucket: https://bitbucket.antwerpen.be/projects/AUI [**VPN**]. Daarnaast zijn er examples beschikbaar van de componenten: https://bitbucket.antwerpen.be/projects/AUI/repos/examples/browse [**VPN**]. Wil je meer weten over het gebruik van deze componentenbibliotheek, bezoek dan de ACPaaS UI website [**publiek**].
+Er is een gebruiksklare bibliotheek beschikbaar met de meestgebruikte UI componenten in de laatste stabiele Angular versie. Alle componenten worden gepubliceerd op https://nexusrepo.antwerpen.be [**VPN**] en zijn voorzien van de nodige documentatie in de code repositories op Bitbucket: https://bitbucket.antwerpen.be/projects/AUI [**VPN**]. Daarnaast zijn er examples beschikbaar van de componenten: https://bitbucket.antwerpen.be/projects/AUI/repos/examples/browse [**VPN**]. Wil je meer weten over het gebruik van deze componentenbibliotheek, bezoek dan de ACPaaS UI website (https://acpaas-ui.digipolis.be/ [**publiek**]).
 
 Verdere specifieke componenten en service libraries moeten door de partner voorzien worden en toegevoegd aan de ACPaaS front-end bibliotheek conform de technische guidelines:
 
@@ -130,7 +130,7 @@ Binnen DaaS (cfr. 2.1) is voor backend ontwikkeling van nieuwe apps gekozen voor
 
 NodeJS apps worden geschreven in het express JS framework.
 
-Er bestaat een node generator die kan gebruikt worden om de backend api op te zetten: https://stash.antwerpen.be/projects/NPM/repos/astad_generator_nodejs/browse [**MW**]
+Er bestaat een node generator die kan gebruikt worden om de backend api op te zetten: https://bitbucket.antwerpen.be/projects/NPM/repos/astad_generator_nodejs/browse [**MW**]
 
 Packages worden gepubliceerd op: https://npm.antwerpen.be/ [**VPN**] => **OPGELET**! de meeste packages zijn gebouwd voor *AStad-specifieke* apps.
 
