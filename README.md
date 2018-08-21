@@ -70,7 +70,7 @@ Elke microservice:
 #### 1.3.2. Versioning (**V**)
 Volgens de semantic versioning principes (http://semver.org/ [**publiek**]). 
 #### 1.3.3. API Requirements (**V**)
-api design-requirements: https://github.com/digipolisantwerpdocumentation/api-requirements[**publiek**]
+api design-requirements: https://github.com/digipolisantwerpdocumentation/api-requirements [**publiek**]
 #### 1.3.4. API monitoring (**V**)
 Status call te voorzien voor elke API, zodat deze kan opgenomen worden de status monitor (https://status-o.antwerpen.be/ [**VPN**]).
 #### 1.3.5. Logging (**V**)
