@@ -10,15 +10,15 @@ Bij hyperlinks wordt aangegeven of de info:
 
 [Voor info types 2 en 3 kan u terecht bij de contactpersoon van Digipolis (zie offertevraag)]
 
-[1. Architectuur](#1-architectuur) 
+[1. Architectuur](#1-architectuur)
 
-[2. Technologieën](#2-technologieën) 
+[2. Technologieën](#2-technologieën)
 
-[3. Ontwikkeltools](#3-ontwikkeltools) 
+[3. Ontwikkeltools](#3-ontwikkeltools)
 
-[4. Testing](#4-testing) 
+[4. Testing](#4-testing)
 
-[5. Architectuur](#5-technische-documentatie-v) 
+[5. Architectuur](#5-technische-documentatie-v)
 
 
 ***
@@ -26,11 +26,11 @@ Bij hyperlinks wordt aangegeven of de info:
 ## 1. Architectuur
 
 ### 1.1. Algemeen
-We verwachten dat de ontwikkelingen rekening houden met het maximaal gebruik van bestaande herbruikbare componenten zoals onze ACPaaS engines en ACPaaS front-end libraries waaronder de stijlbibliotheken. 
+We verwachten dat de ontwikkelingen rekening houden met het maximaal gebruik van bestaande herbruikbare componenten zoals onze ACPaaS engines en ACPaaS front-end libraries waaronder de stijlbibliotheken.
 
 Nieuwe componenten en services dienen zo generiek mogelijk te worden ontwikkeld volgens **Microservice Architectuur** zodat ze herbruikbaar en vervangbaar zijn.
 
-Een algemene presentatie met deze architectuurprincipes: https://goo.gl/izTzSH [**publiek**]. 
+Een algemene presentatie met deze architectuurprincipes: https://goo.gl/izTzSH [**publiek**].
 
 ### 1.2. AcPaaS (**V**)
 
@@ -46,7 +46,7 @@ Een overzicht van alle AcPaaS engines en detailinfo is hier terug te vinden: htt
 We zoomen hieronder in op enkele engines:
 
 #### 1.2.2. API/SDK engine (**V**)
-Alle data en functionaliteiten van de oplossing zijn aanspreekbaar en integreerbaar via API’s. Op die manier wordt de innovatieve front-end volledig afgescheiden van de back-end services. De oplossing hergebruikt maximaal de ACPaaS engines en koppelt met de Centrale Referentie Systemen (CRS) als databronnen. **Alle communicatie tussen engines gebeurt steeds via de API/SDK engine.** Elke API wordt aangeboden via de API/SDK engine en dient daartoe in het **Swagger v2** formaat gedefinieerd te worden. 
+Alle data en functionaliteiten van de oplossing zijn aanspreekbaar en integreerbaar via API’s. Op die manier wordt de innovatieve front-end volledig afgescheiden van de back-end services. De oplossing hergebruikt maximaal de ACPaaS engines en koppelt met de Centrale Referentie Systemen (CRS) als databronnen. **Alle communicatie tussen engines gebeurt steeds via de API/SDK engine.** Elke API wordt aangeboden via de API/SDK engine en dient daartoe in het **Swagger v2** formaat gedefinieerd te worden.
 
 #### 1.2.3. A-Profiel en M-Profiel ()
 voor gebruikerstoegang en voor het ophalen en opslaan van gebruikersattributen dient het A-profiel (burgers) en M-profiel (medewerkers) te worden hergebruikt. De documentatie voor integratie van de A-profiel en M-profiel login met consent via **oAuth2** is hier terug te vinden: https://goo.gl/7wqo13 [**publiek**]. Daarnaast is voor het **M**-profiel authenticatie mogelijk via **SAML2** (conform de specificaties).
@@ -68,11 +68,14 @@ Elke microservice:
 - wordt aangeboden via de API/SDK engine
 
 #### 1.3.2. Versioning (**V**)
-Volgens de semantic versioning principes (http://semver.org/ [**publiek**]). 
+Volgens de semantic versioning principes (http://semver.org/ [**publiek**]).
 #### 1.3.3. API Requirements (**V**)
 api design-requirements: https://github.com/digipolisantwerpdocumentation/api-requirements [**publiek**]
 #### 1.3.4. API monitoring (**V**)
 Status call te voorzien voor elke API, zodat deze kan opgenomen worden in de status monitor (https://status-o.antwerpen.be/ [**VPN**]).
+
+Meer info hoe deze te implementeren vind je hier: https://github.com/digipolisantwerpdocumentation/status-monitoring [**publiek**]
+
 #### 1.3.5. Logging (**V**)
 Logging is verplicht te voorzien voor alle cron jobs en voor privacy gevoelige info.
 Hiervoor dient de AcPaaS logging engine gebruikt te worden:
@@ -89,11 +92,11 @@ Qua technologiekeuzes heeft Digipolis een agile technologische biotoop: Digipoli
 ### 2.2. Frontend
 #### 2.2.1. Stijlgids (**V**)
 
-Het design dient conform de huisstijlrichtlijnen van de stad Antwerpen te worden uitgevoerd. UX moet beantwoorden aan de bestaande UX-richtlijnen. 
+Het design dient conform de huisstijlrichtlijnen van de stad Antwerpen te worden uitgevoerd. UX moet beantwoorden aan de bestaande UX-richtlijnen.
 
 Om toegang te krijgen tot het platform Merk en huisstijl van de groep stad antwerpen surf je naar: http://antwerpen.be/huisstijl/login [**publiek**]. Volg de procedure achter de knop 'meld u aan'. Let wel, je hebt een A-profiel nodig, waar wij de rechten tot toegang aan toe kunnen kennen. Geef het primaire e-mailadres in dat gekoppeld is aan het A-profiel waarmee je toegang wenst tot onze huisstijlrichtlijnen. Heb je nog geen A-profiel, surf dan naar https://www.antwerpen.be/nl/login [**publiek**] en klik op 'registreer uw A-profiel'. Alvast bedankt om deze aanmeldprocedure te volgen.
 
-De digitale huisstijl staat niet los van de overige huisstijlregels. Alle huisstijlrichtlijnen blijven honderd procent van tel, met uitzondering van de richtlijnen rond het 'grid voor print'. Hebt u nog niet gewerkt met onze huisstijlrichtlijnen, vraag dan een korte toelichting aan via huisstijl@stad.antwerpen.be. 
+De digitale huisstijl staat niet los van de overige huisstijlregels. Alle huisstijlrichtlijnen blijven honderd procent van tel, met uitzondering van de richtlijnen rond het 'grid voor print'. Hebt u nog niet gewerkt met onze huisstijlrichtlijnen, vraag dan een korte toelichting aan via huisstijl@stad.antwerpen.be.
 
 #### 2.2.2. Sass-kit (**V**)
 Je gebruikt de recentste versie van de A-kit (core branding). Om een idee te krijgen van onze digitale componenten kan u de codevoorbeelden raadplegen via: https://a-ui.github.io/core_branding_scss/ [**publiek**]. De principes van atomic design worden gevolgd. Let wel dat deze componenten niet kunnen toegepast worden zonder de bredere context van de huisstijl te kennen.
@@ -130,7 +133,7 @@ Er bestaat een node generator die kan gebruikt worden om de backend api op te ze
 
 Packages worden gepubliceerd op: https://npm.antwerpen.be/ [**VPN**] => **OPGELET**! de meeste packages zijn gebouwd voor *AStad-specifieke* apps.
 
-Volgende npm-packages kunnen in principe gebruikt worden los van de single page application: 
+Volgende npm-packages kunnen in principe gebruikt worden los van de single page application:
 
 AStad: Astad-solr, Astad-log, Astad-config (verplicht als je andere packages gebruikt die hierop een dependency leggen), Astad-mail, Astad-proxy, Astad-dgp-correlation, Astad-order, Astad-ticket, Astad-cart, Astad-crypto.
 
@@ -144,7 +147,7 @@ Voor .net Core zijn er generators voor front- en backend beschikbaar op github.
  	- https://github.com/digipolisantwerp/generator-dgp-api-aspnetcore_yeoman [**publiek**]
 - Frontend:
 	- https://github.com/digipolisantwerp/generator-dgp-web-aspnetcore_yeoman [**publiek**]
-- Packages worden gepubliceerd op: 
+- Packages worden gepubliceerd op:
 	- https://www.myget.org/F/digipolisantwerp/api/v3/index.json [**publiek**]
 
 De database wordt benaderd via Entity Framework adhv de dataaccess-toolbox: https://github.com/digipolisantwerp/dataaccess_aspnetcore [**publiek**]
