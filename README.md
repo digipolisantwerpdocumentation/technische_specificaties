@@ -118,6 +118,11 @@ Verdere specifieke componenten en service libraries moeten door de partner voorz
 
 Belangrijk: *het staat de partner vrij om een oplossing in een ander front-end framework voor te stellen. De partner is dan wel verplicht om de benodigde front-end componenten op een kwaliteitsvolle manier toe te voegen in de front-end bibliotheek (cfr. technische guidelines zoals hierboven beschreven). Op deze manier zijn deze componenten herbruikbaar voor toekomstige oplossingen. In de onderhandelingen wordt samen bekeken of dit een realistische piste is.*
 
+#### 2.2.4 Toegankelijkheid (**V**)
+In overeenstemming met de [Europese richtlijn rond toegankelijkheid van websites van overheidsinstanties](http://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//TEXT+TA+P7-TA-2014-0158+0+DOC+XML+V0//NL) [**publiek**] zorg je dat je website of mobiele app toegankelijk is volgens de [WCAG 2.0 niveau AA richtlijnen](https://www.w3.org/TR/WCAG20/) [**publiek**]. Om je hierbij te helpen kan je gebruik maken van deze checklist: https://www.wuhcag.com/wcag-checklist/ [**publiek**].
+
+Het is aangeraden, maar niet verplicht, om ook te voldoen aan de [WCAG 2.1 niveau AA richtlijnen](https://www.w3.org/TR/WCAG21/) [**publiek**], die voortbouwen op de richtlijnen van WCAG 2.0.
+
 ### 2.3. Backend
 #### 2.3.1. Algemeen
 Binnen DaaS (cfr. 2.1) is voor backend ontwikkeling van nieuwe apps gekozen voor volgende technologieën:
