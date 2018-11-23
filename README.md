@@ -48,7 +48,7 @@ We zoomen hieronder in op enkele engines:
 #### 1.2.2. API/SDK engine (**V**)
 Alle data en functionaliteiten van de oplossing zijn aanspreekbaar en integreerbaar via API’s. Op die manier wordt de innovatieve front-end volledig afgescheiden van de back-end services. De oplossing hergebruikt maximaal de ACPaaS engines en koppelt met de Centrale Referentie Systemen (CRS) als databronnen. **Alle communicatie tussen engines gebeurt steeds via de API/SDK engine.** Elke API wordt aangeboden via de API/SDK engine en dient daartoe in het **Swagger v2** formaat gedefinieerd te worden.
 
-#### 1.2.3. A-Profiel en M-Profiel ()
+#### 1.2.3. A-Profiel en M-Profiel (V)
 voor gebruikerstoegang en voor het ophalen en opslaan van gebruikersattributen dient het A-profiel (burgers) en M-profiel (medewerkers) te worden hergebruikt. De documentatie voor integratie van de A-profiel en M-profiel login met consent via **oAuth2** is hier terug te vinden: https://goo.gl/7wqo13 [**publiek**]. Daarnaast is voor het **M**-profiel authenticatie mogelijk via **SAML2** (conform de specificaties).
 
 ### 1.3. Microservice Architectuur (**V**)
