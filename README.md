@@ -30,7 +30,7 @@ We verwachten dat de ontwikkelingen rekening houden met het maximaal gebruik van
 
 Nieuwe componenten en services dienen zo generiek mogelijk te worden ontwikkeld volgens **Microservice Architectuur** zodat ze herbruikbaar en vervangbaar zijn.
 
-Een algemene presentatie met deze architectuurprincipes: https://goo.gl/izTzSH [**publiek**].
+Een algemene presentatie met deze architectuurprincipes: https://acpaas.digipolis.be/nl/docs/resources [**publiek**].
 
 ### 1.2. AcPaaS (**V**)
 
@@ -39,9 +39,9 @@ Een algemene presentatie met deze architectuurprincipes: https://goo.gl/izTzSH [
 
 Deze staan klaar om de totaaloplossing op te bouwen waarbij Digipolis de technische ondersteuning kan geven.
 
-Meer algemene informatie over ACPaaS is terug te vinden op https://goo.gl/naOX9j [**publiek**].
+Meer algemene informatie over ACPaaS is terug te vinden op https://acpaas.digipolis.be/nl/home [**publiek**].
 
-Een overzicht van alle AcPaaS engines en detailinfo is hier terug te vinden: https://goo.gl/zrhqh3 [**publiek**].
+Een overzicht van alle AcPaaS engines en detailinfo is hier terug te vinden: https://acpaas.digipolis.be/nl/products [**publiek**].
 
 We zoomen hieronder in op enkele engines:
 
@@ -87,7 +87,7 @@ Hiervoor dient de AcPaaS logging engine gebruikt te worden:
 
 ## 2.​ Technologieën
 ### 2.1. Algemeen: DaaS
-Qua technologiekeuzes heeft Digipolis een agile technologische biotoop: Digipolis Antwerpen Application Stack, of kortweg DAAS. Het staat de partner steeds vrij om onze technologische keuzes te challengen, zo lang ze maar voldoen aan de DAAS criteria en we samen een oplossing kunnen vinden voor het onderhoud van de oplossing. Meer info vind je hier: https://goo.gl/HNm92Q [**publiek**].
+Qua technologiekeuzes heeft Digipolis een agile technologische biotoop: Digipolis Antwerpen Application Stack, of kortweg DAAS. Het staat de partner steeds vrij om onze technologische keuzes te challengen, zo lang ze maar voldoen aan de DAAS criteria en we samen een oplossing kunnen vinden voor het onderhoud van de oplossing. Meer info vind je hier: https://acpaas.digipolis.be/nl/docs/resources [**publiek**].
 
 ### 2.2. Frontend
 #### 2.2.1. Stijlgids (**V**)
