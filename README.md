@@ -118,10 +118,16 @@ Verdere specifieke componenten en service libraries moeten door de partner voorz
 
 Belangrijk: *het staat de partner vrij om een oplossing in een ander front-end framework voor te stellen. De partner is dan wel verplicht om de benodigde front-end componenten op een kwaliteitsvolle manier toe te voegen in de front-end bibliotheek (cfr. technische guidelines zoals hierboven beschreven). Op deze manier zijn deze componenten herbruikbaar voor toekomstige oplossingen. In de onderhandelingen wordt samen bekeken of dit een realistische piste is.*
 
-#### 2.2.4 Toegankelijkheid (**V**) test
-In overeenstemming met de [Europese richtlijn rond toegankelijkheid van websites van overheidsinstanties](http://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//TEXT+TA+P7-TA-2014-0158+0+DOC+XML+V0//NL) [**publiek**] zorg je dat de website of mobiele app toegankelijk is volgens de [WCAG 2.0 niveau AA richtlijnen](https://www.w3.org/TR/WCAG20/) [**publiek**]. Om je hierbij te helpen kan je gebruik maken van deze checklist: https://www.wuhcag.com/wcag-checklist/ [**publiek**].
+#### 2.2.4 Toegankelijkheid (**V**)
+Stad Antwerpen streeft ernaar om zijn digitale toepassingen zo toegankelijk mogelijk te maken. Dit in overeenstemming met de Europese richtlijn:
 
-Het is aangeraden, maar niet verplicht, om ook te voldoen aan de [WCAG 2.1 niveau AA richtlijnen](https://www.w3.org/TR/WCAG21/) [**publiek**], die voortbouwen op de richtlijnen van WCAG 2.0.
+*De richtlijn webtoegankelijkheid stelt toegankelijkheidseisen aan websites en mobiele applicaties die verstrekt worden door overheidsinstanties en die essentieel zijn voor de participatie van burgers in de economie en samenleving opdat EU-burgers hun rechten kunnen uitoefenen.*
+
+De Web Content Accesibility Guidelines, WCAG 2.1, zijn de richtlijnen die gevolgd moeten worden om websites en apps en de inhoud hiervan toegankelijker te maken. Er zijn drie hoofdniveaus vastgelegd van laag naar hoog: A, AA en AAA. Per richtlijn en per niveau zijn er succescriteria. 
+
+Zorg dat de toepassing voldoet aan de richtlijnen tot en met niveau AA. 
+
+Wil je hier meer over weten, lees dan - in afwachting van de op-maat-uitgewerkte richtlijnen van stad Antwerpen - het volledige overzicht op https://www.w3.org/TR/WCAG21/ [**publiek**] of deze praktische samenvatting: https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=121%2C143#principle1 [**publiek**].
 
 ### 2.3. Backend
 #### 2.3.1. Algemeen
