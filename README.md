@@ -35,21 +35,7 @@ Een algemene presentatie met deze architectuurprincipes: https://acpaas.digipoli
 ### 1.2. AcPaaS (**V**)
 
 #### 1.2.1. Algemeen (V)
-*Een overkoepelend beleid op het vlak van informatie en ICT gaat de verkokering en versnippering tegen. Binnen dit beleidskader werd een gelaagd model uitgewerkt waarbij hergebruik van een aantal bouwblokken, waaronder de ACPaaS engines en Centrale Referentie Systemen (CRS), verplicht is.*
-
-Deze staan klaar om de totaaloplossing op te bouwen waarbij Digipolis de technische ondersteuning kan geven.
-
-Meer algemene informatie over ACPaaS is terug te vinden op https://acpaas.digipolis.be/nl/home [**publiek**].
-
 Een overzicht van alle AcPaaS engines en detailinfo is hier terug te vinden: https://acpaas.digipolis.be/nl/products [**publiek**].
-
-We zoomen hieronder in op enkele engines:
-
-#### 1.2.2. API/SDK engine (**V**)
-Alle data en functionaliteiten van de oplossing zijn aanspreekbaar en integreerbaar via API’s. Op die manier wordt de innovatieve front-end volledig afgescheiden van de back-end services. De oplossing hergebruikt maximaal de ACPaaS engines en koppelt met de Centrale Referentie Systemen (CRS) als databronnen. **Alle communicatie tussen engines gebeurt steeds via de API/SDK engine.** Elke API wordt aangeboden via de API/SDK engine en dient daartoe in het **Swagger v2** formaat gedefinieerd te worden.
-
-#### 1.2.3. A-Profiel en M-Profiel ()
-voor gebruikerstoegang en voor het ophalen en opslaan van gebruikersattributen dient het A-profiel (burgers) en M-profiel (medewerkers) te worden hergebruikt. De documentatie voor integratie van de A-profiel en M-profiel login met consent via **oAuth2** is hier terug te vinden: https://goo.gl/7wqo13 [**publiek**]. Daarnaast is voor het **M**-profiel authenticatie mogelijk via **SAML2** (conform de specificaties).
 
 ### 1.3. Microservice Architectuur (**V**)
 #### 1.3.1. Algemeen
