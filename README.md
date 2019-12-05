@@ -30,7 +30,7 @@ We verwachten dat de ontwikkelingen rekening houden met het maximaal gebruik van
 
 Nieuwe componenten en services dienen zo generiek mogelijk te worden ontwikkeld volgens **Microservice Architectuur** zodat ze herbruikbaar en vervangbaar zijn.
 
-Een algemene presentatie met deze architectuurprincipes: https://acpaas.digipolis.be/nl/docs/resources [**publiek**].
+Een algemene presentatie met deze architectuurprincipes: https://acpaas.digipolis.be/nl/docs/acpaas-principes-microservice-architectuur-sa2020  [**publiek**].
 
 ### 1.2. AcPaaS (**V**)
 
@@ -54,23 +54,12 @@ voor gebruikerstoegang en voor het ophalen en opslaan van gebruikersattributen d
 ### 1.3. Microservice Architectuur (**V**)
 #### 1.3.1. Algemeen
 Nieuwe functionaliteit wordt steeds gebouwd conform de microservice architectuur principes. Bestaande functionaliteit dient bij aanpassingen of refactor in lijn gebracht te worden met deze principes.
-
-Elke microservice:
-
-- is business centered (wordt gemaakt voor 1 proces of functionaliteit)
-- encapsuleert de functionaliteit + de data
-- is geïsoleerd
-- eigen database  (geen sharing van databases)
-- onafhankelijk implementeerbaar
-- onafhankelijk deploybaar
-- is eenvoudig vervangbaar
-- wordt aangesproken via duidelijk gedefinieerde API’s
-- wordt aangeboden via de API/SDK engine
+Meer informatie vind je op https://acpaas.digipolis.be/nl/docs/acpaas-principes-microservice-architectuur-sa2020. 
 
 #### 1.3.2. Versioning (**V**)
-Volgens de semantic versioning principes (http://semver.org/ [**publiek**]).
+Zie  https://acpaas.digipolis.be/nl/docs/api-requirements
 #### 1.3.3. API Requirements (**V**)
-api design-requirements: https://github.com/digipolisantwerpdocumentation/api-requirements [**publiek**]
+Zie https://acpaas.digipolis.be/nl/docs/api-requirements
 #### 1.3.4. API monitoring (**V**)
 Status call te voorzien voor elke API, zodat deze kan opgenomen worden in de status monitor (https://status-o.antwerpen.be/ [**VPN**]).
 
@@ -80,17 +69,17 @@ Meer info hoe deze te implementeren vind je hier: https://github.com/digipolisan
 Logging is verplicht te voorzien voor alle cron jobs en voor privacy gevoelige info.
 Hiervoor dient de AcPaaS logging engine gebruikt te worden:
 
-- https://applicationlogging-app1-a.antwerpen.be/ [**VPN**]
-- https://systeemlogging-app1-a.antwerpen.be/ [**VPN**]
-- https://privacylogging-app1-a.antwerpen.be/ [**VPN**]
-- https://logging-o.antwerpen.be/ [**VPN**]
+https://acpaas.digipolis.be/nl/product/logging-engine
+
+Voor het raadplegen van logging is VPN vereist. 
 
 ## 2.​ Technologieën
 ### 2.1. Algemeen: DaaS
-Qua technologiekeuzes heeft Digipolis een agile technologische biotoop: Digipolis Antwerpen Application Stack, of kortweg DAAS. Het staat de partner steeds vrij om onze technologische keuzes te challengen, zo lang ze maar voldoen aan de DAAS criteria en we samen een oplossing kunnen vinden voor het onderhoud van de oplossing. Meer info vind je hier: https://acpaas.digipolis.be/nl/docs/resources [**publiek**].
+Zie https://acpaas.digipolis.be/nl/docs/digipolis-antwerp-application-stack-daas 
 
 ### 2.2. Frontend
 #### 2.2.1. Stijlgids (**V**)
+Alle informatie over de frontend technologieën vind je hier: https://acpaas.digipolis.be/nl/docs/front-end-technologieen. 
 
 Het design dient conform de huisstijlrichtlijnen van de stad Antwerpen te worden uitgevoerd. UX moet beantwoorden aan de bestaande UX-richtlijnen.
 
@@ -119,67 +108,23 @@ Verdere specifieke componenten en service libraries moeten door de partner voorz
 Belangrijk: *het staat de partner vrij om een oplossing in een ander front-end framework voor te stellen. De partner is dan wel verplicht om de benodigde front-end componenten op een kwaliteitsvolle manier toe te voegen in de front-end bibliotheek (cfr. technische guidelines zoals hierboven beschreven). Op deze manier zijn deze componenten herbruikbaar voor toekomstige oplossingen. In de onderhandelingen wordt samen bekeken of dit een realistische piste is.*
 
 #### 2.2.4 Toegankelijkheid (**V**)
-Stad Antwerpen streeft ernaar om zijn digitale toepassingen zo toegankelijk mogelijk te maken. Dit in overeenstemming met de Europese richtlijn:
-
-*De richtlijn webtoegankelijkheid stelt toegankelijkheidseisen aan websites en mobiele applicaties die verstrekt worden door overheidsinstanties en die essentieel zijn voor de participatie van burgers in de economie en samenleving opdat EU-burgers hun rechten kunnen uitoefenen.*
-
-De Web Content Accesibility Guidelines, WCAG 2.1, zijn de richtlijnen die gevolgd moeten worden om websites en apps en de inhoud hiervan toegankelijker te maken. Er zijn drie hoofdniveaus vastgelegd van laag naar hoog: A, AA en AAA. Per richtlijn en per niveau zijn er succescriteria. 
-
-Zorg dat de toepassing voldoet aan de richtlijnen tot en met niveau AA. 
-
-Wil je hier meer over weten, lees dan - in afwachting van de op-maat-uitgewerkte richtlijnen van stad Antwerpen - het volledige overzicht op https://www.w3.org/TR/WCAG21/ [**publiek**] of deze praktische samenvatting: https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=121%2C143#principle1 [**publiek**].
+Zie https://acpaas.digipolis.be/nl/docs/toegankelijkheid-websites-en-mobieleapps-einclusie-en-wcag 
 
 ### 2.3. Backend
 #### 2.3.1. Algemeen
-Binnen DaaS (cfr. 2.1) is voor backend ontwikkeling van nieuwe apps gekozen voor volgende technologieën:
+Zie https://acpaas.digipolis.be/nl/docs/backend-technologieen 
 
-- NodeJS
-- .Net Core
-
-#### 2.3.2. NodeJS (**V**)
-
-NodeJS apps worden geschreven in het express JS framework.
-
-Er bestaat een node generator die kan gebruikt worden om de backend api op te zetten: https://bitbucket.antwerpen.be/projects/NPM/repos/astad_generator_nodejs/browse [**MW**]
-
-Packages worden gepubliceerd op: https://npm.antwerpen.be/ [**VPN**] => **OPGELET**! de meeste packages zijn gebouwd voor *AStad-specifieke* apps.
-
-Volgende npm-packages kunnen in principe gebruikt worden los van de single page application:
-
-AStad: Astad-solr, Astad-log, Astad-config (verplicht als je andere packages gebruikt die hierop een dependency leggen), Astad-mail, Astad-proxy, Astad-dgp-correlation, Astad-order, Astad-ticket, Astad-cart, Astad-crypto.
-
-*Npm-package eslint moet verplicht in de devDependencies staan.*
-
-#### 2.3.3. .Net Core (**V**)
-
-Voor .net Core zijn er generators voor front- en backend beschikbaar op github.
-
-- Backend (api):
- 	- https://github.com/digipolisantwerp/generator-dgp-api-aspnetcore_yeoman [**publiek**]
-- Frontend:
-	- https://github.com/digipolisantwerp/generator-dgp-web-aspnetcore_yeoman [**publiek**]
-- Packages worden gepubliceerd op:
-	- https://www.myget.org/F/digipolisantwerp/api/v3/index.json [**publiek**]
-
-De database wordt benaderd via Entity Framework adhv de dataaccess-toolbox: https://github.com/digipolisantwerp/dataaccess_aspnetcore [**publiek**]
-
-Van de database migrations worden scripts gegenereerd die tijdens deployment automatisch worden uitgevoerd.
-
-Andere toolboxen zijn vrij te gebruiken: https://github.com/digipolisantwerp [**publiek**]
-
-Gebruik van de logging-toolboxen is **verplicht**: https://github.com/digipolisantwerp/serilog_aspnetcore [**publiek**]
 
 ### 2.4. Databases (**V**)
-**PostgreSQL** of **MongoDb** voor nieuwe apps.
+Zie https://acpaas.digipolis.be/nl/docs/backend-technologieen
 
-Bestaande apps zijn ontwikkeld in MongoDb, SQL server en PostgreSQL.
-
-Voor zoekopdrachten: search engine (**Apache Solr**), die via de API’s wordt aangesproken om content toe voegen, content te verwijderen en om zoekopdrachten te lanceren.
 
 ## 3. Ontwikkeltools
 ### 3.1. Application Lifecycle Management
+
 #### 3.1.1 Jira (**V**)
 Nieuwe functionaliteiten worden in de vorm van epics en stories ingebracht in Jira. Hier gebeurt ook de bugtracking en projectopvolging. Gebruik van de Jira Workflow binnen Digipolis is verplicht.
+
 #### 3.1.2 Bitbucket (**V**)
 Zowel de front- als backend code van iedere applicatie zit in een eigen Git Repository die beheerd wordt binnen BitBucket. Codewijzigingen worden via pull requests gereviseerd door 2 ontwikkelaars. Er worden zowel voor front- als backend 3 ontwikkelaars doorgegeven die als approver kunnen geselecteerd worden.
 
