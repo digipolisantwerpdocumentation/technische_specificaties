@@ -54,12 +54,12 @@ voor gebruikerstoegang en voor het ophalen en opslaan van gebruikersattributen d
 ### 1.3. Microservice Architectuur (**V**)
 #### 1.3.1. Algemeen
 Nieuwe functionaliteit wordt steeds gebouwd conform de microservice architectuur principes. Bestaande functionaliteit dient bij aanpassingen of refactor in lijn gebracht te worden met deze principes.
-Meer informatie vind je op https://acpaas.digipolis.be/nl/docs/acpaas-principes-microservice-architectuur-sa2020. 
+Meer informatie vind je op https://acpaas.digipolis.be/nl/docs/acpaas-principes-microservice-architectuur-sa2020 [**publiek**].
 
 #### 1.3.2. Versioning (**V**)
-Zie  https://acpaas.digipolis.be/nl/docs/api-requirements
+Zie  https://acpaas.digipolis.be/nl/docs/api-requirements [**publiek**].
 #### 1.3.3. API Requirements (**V**)
-Zie https://acpaas.digipolis.be/nl/docs/api-requirements
+Zie https://acpaas.digipolis.be/nl/docs/api-requirements [**publiek**].
 #### 1.3.4. API monitoring (**V**)
 Status call te voorzien voor elke API, zodat deze kan opgenomen worden in de status monitor (https://status-o.antwerpen.be/ [**VPN**]).
 
@@ -69,17 +69,17 @@ Meer info hoe deze te implementeren vind je hier: https://github.com/digipolisan
 Logging is verplicht te voorzien voor alle cron jobs en voor privacy gevoelige info.
 Hiervoor dient de AcPaaS logging engine gebruikt te worden:
 
-https://acpaas.digipolis.be/nl/product/logging-engine
+https://acpaas.digipolis.be/nl/product/logging-engine [**publiek**].
 
-Voor het raadplegen van logging is VPN vereist. 
+Voor het raadplegen van de logging is altijd VPN vereist. 
 
 ## 2.​ Technologieën
 ### 2.1. Algemeen: DaaS
-Zie https://acpaas.digipolis.be/nl/docs/digipolis-antwerp-application-stack-daas 
+Zie https://acpaas.digipolis.be/nl/docs/digipolis-antwerp-application-stack-daas [**publiek**].
 
 ### 2.2. Frontend
 #### 2.2.1. Stijlgids (**V**)
-Alle informatie over de frontend technologieën vind je hier: https://acpaas.digipolis.be/nl/docs/front-end-technologieen. 
+Alle informatie over de frontend technologieën vind je hier: https://acpaas.digipolis.be/nl/docs/front-end-technologieen [**publiek**].
 
 Het design dient conform de huisstijlrichtlijnen van de stad Antwerpen te worden uitgevoerd. UX moet beantwoorden aan de bestaande UX-richtlijnen.
 
@@ -108,15 +108,15 @@ Verdere specifieke componenten en service libraries moeten door de partner voorz
 Belangrijk: *het staat de partner vrij om een oplossing in een ander front-end framework voor te stellen. De partner is dan wel verplicht om de benodigde front-end componenten op een kwaliteitsvolle manier toe te voegen in de front-end bibliotheek (cfr. technische guidelines zoals hierboven beschreven). Op deze manier zijn deze componenten herbruikbaar voor toekomstige oplossingen. In de onderhandelingen wordt samen bekeken of dit een realistische piste is.*
 
 #### 2.2.4 Toegankelijkheid (**V**)
-Zie https://acpaas.digipolis.be/nl/docs/toegankelijkheid-websites-en-mobieleapps-einclusie-en-wcag 
+Zie https://acpaas.digipolis.be/nl/docs/toegankelijkheid-websites-en-mobieleapps-einclusie-en-wcag [**publiek**].
 
 ### 2.3. Backend
 #### 2.3.1. Algemeen
-Zie https://acpaas.digipolis.be/nl/docs/backend-technologieen 
+Zie https://acpaas.digipolis.be/nl/docs/backend-technologieen [**publiek**].
 
 
 ### 2.4. Databases (**V**)
-Zie https://acpaas.digipolis.be/nl/docs/backend-technologieen
+Zie https://acpaas.digipolis.be/nl/docs/backend-technologieen [**publiek**].
 
 
 ## 3. Ontwikkeltools
