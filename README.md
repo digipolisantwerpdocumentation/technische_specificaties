@@ -140,9 +140,6 @@ Beschikbaar voor local development. Er is een traject bezig om Docker op te neme
 ### 3.4. App Config (**O**)
 Optioneel voor nieuwe apps: https://appconfig.antwerpen.be/ [**VPN**]
 ## 4. Testing
-### 4.1. Unit & integratietesten (**V**)
-Testcoverage: minimum **80%** voor line, branch, statements en functions, automatisch na build.
-### 4.2. Automatische UI testen (O)
-Testscenario’s worden beschreven via de **Zephyr** module in Jira. Automatische regressietesten kunnen ontwikkeld worden via **Ranorex**.
+Zie https://acpaas.digipolis.be/nl/docs/testing [**publiek**].
 ## 5. Technische documentatie (**V**)
 API / applicatie documentatie beschikbaar stellen in **readme.md**, **swagger.json**, **changelog.md** formaat, verwijzing naar kibana monitor opnemen.
