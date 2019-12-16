@@ -129,6 +129,11 @@ Zorg dat de toepassing voldoet aan de richtlijnen tot en met niveau AA.
 
 Wil je hier meer over weten, lees dan - in afwachting van de op-maat-uitgewerkte richtlijnen van stad Antwerpen - het volledige overzicht op https://www.w3.org/TR/WCAG21/ [**publiek**] of deze praktische samenvatting: https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=121%2C143#principle1 [**publiek**].
 
+#### 2.2.5 Smart Widgets
+Naast de componentenbibliotheek bestaan er ook een aantal voorgebouwde en herbruikbare stukken functionaliteit, de **Smart Widgets**. Je kan alles vinden over het gebruik en ontwikkeling van de Smart Widgets op github: https://github.com/digipolisantwerp/smart-widgets
+ 
+Waar mogelijk kan herbruikbare functionaliteit verpakt worden als Smart Widget en toegevoegd aan de **widget catalogus**, via de contributierichtlijnen te vinden op https://github.com/digipolisantwerp/smart-widgets/blob/master/CONTRIBUTING.md
+
 ### 2.3. Backend
 #### 2.3.1. Algemeen
 Binnen DaaS (cfr. 2.1) is voor backend ontwikkeling van nieuwe apps gekozen voor volgende technologieën:
