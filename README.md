@@ -119,6 +119,12 @@ Verdere specifieke componenten en service libraries moeten door de partner voorz
 
 Belangrijk: *het staat de partner vrij om een oplossing in een ander front-end framework voor te stellen. De partner is dan wel verplicht om de benodigde front-end componenten op een kwaliteitsvolle manier toe te voegen in de front-end bibliotheek (cfr. technische guidelines zoals hierboven beschreven). Op deze manier zijn deze componenten herbruikbaar voor toekomstige oplossingen. In de onderhandelingen wordt samen bekeken of dit een realistische piste is.*
 
+#### 2.2.5 Smart Widgets
+ 
+Naast de componentenbibliotheek bestaan er ook een aantal voorgebouwde en herbruikbare stukken functionaliteit, de **Smart Widgets**. Je kan alles vinden over het gebruik en ontwikkeling van de Smart Widgets op github: https://github.com/digipolisantwerp/smart-widgets
+ 
+Waar mogelijk kan herbruikbare functionaliteit verpakt worden als Smart Widget en toegevoegd aan de **widget catalogus**, via de contributierichtlijnen te vinden op https://github.com/digipolisantwerp/smart-widgets/blob/master/CONTRIBUTING.md
+
 ### 2.3. Backend
 #### 2.3.1. Algemeen
 Binnen DaaS (cfr. 2.1) is voor backend ontwikkeling van nieuwe apps gekozen voor volgende technologieën:
