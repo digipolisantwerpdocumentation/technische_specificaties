@@ -37,6 +37,10 @@ Een algemene presentatie met deze architectuurprincipes: https://acpaas.digipoli
 #### 1.2.1. Algemeen (V)
 Een overzicht van alle AcPaaS engines en detailinfo is hier terug te vinden: https://acpaas.digipolis.be/nl/products [**publiek**].
 
+Het gebruik van de **API/SDK engine** is verplicht. Meer informatie vind je hier: https://acpaas.digipolis.be/nl/docs/gebruik-van-api-engine [**publiek**].
+
+Voor gebruikerstoegang en voor het ophalen en opslaan van gebruikersattributen dient het **A-profiel (burgers) en M-profiel (medewerkers)** te worden hergebruikt. Meer informatie vind je hier: https://acpaas.digipolis.be/nl/docs/identiteit-authenticatie-en-autorisatie [**publiek**].
+
 ### 1.3. Microservice Architectuur (**V**)
 #### 1.3.1. Algemeen
 Nieuwe functionaliteit wordt steeds gebouwd conform de microservice architectuur principes. Bestaande functionaliteit dient bij aanpassingen of refactor in lijn gebracht te worden met deze principes.
@@ -125,7 +129,9 @@ voor lokale development: https://bitbucket.antwerpen.be/projects/ASTAD/repos/vag
 Beschikbaar voor local development. Er is een traject bezig om Docker op te nemen in de Application Lifecycle Management tools.
 ### 3.4. App Config (**O**)
 Optioneel voor nieuwe apps: https://appconfig.antwerpen.be/ [**VPN**]
+
 ## 4. Testing
 Zie https://acpaas.digipolis.be/nl/docs/testing [**publiek**].
+
 ## 5. Technische documentatie (**V**)
 API / applicatie documentatie beschikbaar stellen in **readme.md**, **swagger.json**, **changelog.md** formaat, verwijzing naar kibana monitor opnemen.
