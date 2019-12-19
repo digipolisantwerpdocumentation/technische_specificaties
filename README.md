@@ -33,8 +33,6 @@ Nieuwe componenten en services dienen zo generiek mogelijk te worden ontwikkeld 
 Een algemene presentatie met deze architectuurprincipes: https://acpaas.digipolis.be/nl/docs/acpaas-principes-microservice-architectuur-sa2020  [**publiek**].
 
 ### 1.2. AcPaaS (**V**)
-
-#### 1.2.1. Algemeen (V)
 Een overzicht van alle AcPaaS engines en detailinfo is hier terug te vinden: https://acpaas.digipolis.be/nl/products [**publiek**].
 
 Het gebruik van de **API/SDK engine** is verplicht. Meer informatie vind je hier: https://acpaas.digipolis.be/nl/docs/gebruik-van-api-engine [**publiek**].
@@ -63,7 +61,7 @@ https://acpaas.digipolis.be/nl/product/logging-engine [**publiek**].
 
 Voor het raadplegen van de logging is altijd VPN vereist. 
 
-## 2.​ Technologieën
+## 2. Technologieën
 ### 2.1. Algemeen: DaaS
 Zie https://acpaas.digipolis.be/nl/docs/digipolis-antwerp-application-stack-daas [**publiek**].
 
@@ -99,6 +97,11 @@ Belangrijk: *het staat de partner vrij om een oplossing in een ander front-end f
 
 #### 2.2.4 Toegankelijkheid (**V**)
 Zie https://acpaas.digipolis.be/nl/docs/toegankelijkheid-websites-en-mobieleapps-einclusie-en-wcag [**publiek**].
+
+#### 2.2.5 Smart Widgets
+Naast de componentenbibliotheek bestaan er ook een aantal voorgebouwde en herbruikbare stukken functionaliteit, de **Smart Widgets**. Je kan alles vinden over het gebruik en ontwikkeling van de Smart Widgets op github: https://github.com/digipolisantwerp/smart-widgets
+ 
+Waar mogelijk kan herbruikbare functionaliteit verpakt worden als Smart Widget en toegevoegd aan de **widget catalogus**, via de contributierichtlijnen te vinden op https://github.com/digipolisantwerp/smart-widgets/blob/master/CONTRIBUTING.md
 
 ### 2.3. Backend
 #### 2.3.1. Algemeen
