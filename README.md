@@ -20,8 +20,8 @@ Bij hyperlinks wordt aangegeven of de info:
 
 [5. Architectuur](#5-technische-documentatie-v)
 
-
 ***
+
 
 ## 1. Architectuur
 
@@ -30,111 +30,89 @@ We verwachten dat de ontwikkelingen rekening houden met het maximaal gebruik van
 
 Nieuwe componenten en services dienen zo generiek mogelijk te worden ontwikkeld volgens **Microservice Architectuur** zodat ze herbruikbaar en vervangbaar zijn.
 
-Een algemene presentatie met deze architectuurprincipes: https://acpaas.digipolis.be/nl/docs/acpaas-principes-microservice-architectuur-sa2020  [**publiek**].
+Een algemene presentatie met deze architectuurprincipes: https://acpaas.digipolis.be/nl/docs/acpaas-principes-microservice-architectuur-sa2020 [**publiek**].
 
-### 1.2. AcPaaS (**V**)
-Een overzicht van alle AcPaaS engines en detailinfo is hier terug te vinden: https://acpaas.digipolis.be/nl/products [**publiek**].
+### 1.2. ACPaaS (V)
+Een overzicht van alle ACPaaS engines en detailinfo is hier terug te vinden: https://acpaas.digipolis.be/nl/products [**publiek**].
 
 Het gebruik van de **API/SDK engine** is verplicht. Meer informatie vind je hier: https://acpaas.digipolis.be/nl/docs/gebruik-van-api-engine [**publiek**].
 
 Voor gebruikerstoegang en voor het ophalen en opslaan van gebruikersattributen dient het **A-profiel (burgers) en M-profiel (medewerkers)** te worden hergebruikt. Meer informatie vind je hier: https://acpaas.digipolis.be/nl/docs/identiteit-authenticatie-en-autorisatie [**publiek**].
 
 ### 1.3. Microservice Architectuur (**V**)
+
 #### 1.3.1. Algemeen
 Nieuwe functionaliteit wordt steeds gebouwd conform de microservice architectuur principes. Bestaande functionaliteit dient bij aanpassingen of refactor in lijn gebracht te worden met deze principes.
 Meer informatie vind je op https://acpaas.digipolis.be/nl/docs/acpaas-principes-microservice-architectuur-sa2020 [**publiek**].
 
-#### 1.3.2. Versioning (**V**)
-Zie  https://acpaas.digipolis.be/nl/docs/api-requirements [**publiek**].
-#### 1.3.3. API Requirements (**V**)
+#### 1.3.2. Versioning (V)
 Zie https://acpaas.digipolis.be/nl/docs/api-requirements [**publiek**].
-#### 1.3.4. API monitoring (**V**)
+
+#### 1.3.3. API Requirements (V)
+Zie https://acpaas.digipolis.be/nl/docs/api-requirements [**publiek**].
+
+#### 1.3.4. API monitoring (V)
 Status call te voorzien voor elke API, zodat deze kan opgenomen worden in de status monitor (https://status-o.antwerpen.be/ [**VPN**]).
 
 Meer info hoe deze te implementeren vind je hier: https://github.com/digipolisantwerpdocumentation/status-monitoring [**publiek**]
 
 #### 1.3.5. Logging (**V**)
 Logging is verplicht te voorzien voor alle cron jobs en voor privacy gevoelige info.
-Hiervoor dient de AcPaaS logging engine gebruikt te worden:
+Hiervoor dient de ACPaaS logging engine gebruikt te worden:
 
 https://acpaas.digipolis.be/nl/product/logging-engine [**publiek**].
 
-Voor het raadplegen van de logging is altijd VPN vereist. 
+Voor het raadplegen van de logging is altijd VPN vereist.
+
 
 ## 2. Technologieën
-### 2.1. Algemeen: DaaS
+
+### 2.1. Algemeen: DAAS
 Zie https://acpaas.digipolis.be/nl/docs/digipolis-antwerp-application-stack-daas [**publiek**].
 
-### 2.2. Frontend
-#### 2.2.1. Stijlgids (**V**)
-Alle informatie over de frontend technologieën vind je hier: https://acpaas.digipolis.be/nl/docs/front-end-technologieen [**publiek**].
+### 2.2. Frontend (V)
 
-Het design dient conform de huisstijlrichtlijnen van de stad Antwerpen te worden uitgevoerd. UX moet beantwoorden aan de bestaande UX-richtlijnen.
+#### 2.2.1. Digitale huisstijl (V)
+Het design dient conform de huisstijlrichtlijnen van de stad Antwerpen te worden uitgevoerd. Bekijk alle documentatie op https://acpaas.digipolis.be/nl/docs/digitale-huisstijl [**publiek**].
 
-Om toegang te krijgen tot het platform Merk en huisstijl van de groep stad antwerpen surf je naar: http://antwerpen.be/huisstijl/login [**publiek**]. Volg de procedure achter de knop 'meld u aan'. Let wel, je hebt een A-profiel nodig, waar wij de rechten tot toegang aan toe kunnen kennen. Geef het primaire e-mailadres in dat gekoppeld is aan het A-profiel waarmee je toegang wenst tot onze huisstijlrichtlijnen. Heb je nog geen A-profiel, surf dan naar https://www.antwerpen.be/nl/login [**publiek**] en klik op 'registreer uw A-profiel'. Alvast bedankt om deze aanmeldprocedure te volgen.
+#### 2.2.2. Technologieën (V)
+Een overzicht van alle mogelijke technologieën kan je vinden op https://acpaas.digipolis.be/nl/docs/front-end-technologieen [**publiek**].
 
-De digitale huisstijl staat niet los van de overige huisstijlregels. Alle huisstijlrichtlijnen blijven honderd procent van tel, met uitzondering van de richtlijnen rond het 'grid voor print'. Hebt u nog niet gewerkt met onze huisstijlrichtlijnen, vraag dan een korte toelichting aan via huisstijl@stad.antwerpen.be.
-
-#### 2.2.2. Sass-kit (**V**)
-Je gebruikt de recentste versie van de A-kit (core branding). Om een idee te krijgen van onze digitale componenten kan u de codevoorbeelden raadplegen via: https://a-ui.github.io/core_branding_scss/ [**publiek**]. De principes van atomic design worden gevolgd. Let wel dat deze componenten niet kunnen toegepast worden zonder de bredere context van de huisstijl te kennen.
-
-Alle broncode van de digitale componenten is tevens terug te vinden op GitHub: https://github.com/a-ui/core_branding_scss [**publiek**]. Hier kunnen ontwikkelaars de broncode bekijken, zelf verbeteringen voorstellen of eventuele bugs inseinen.
-
-#### 2.2.3. Component bibliotheek (**V**)
-Er is een gebruiksklare bibliotheek beschikbaar met de meestgebruikte UI componenten in de laatste stabiele Angular en React versies. Alle componenten worden gepubliceerd op https://npmjs.com [**publiek**] en zijn voorzien van de nodige documentatie in de code repositories op GitHub: https://github.com/digipolisantwerp/acpaas-ui_angular [**publiek**] en https://github.com/digipolisantwerp/acpaas-ui_react [**publiek**]. Daarnaast zijn er examples beschikbaar van de componenten: https://digipolisantwerp.github.io/acpaas-ui_angular/ [**publiek**] en https://digipolisantwerp.github.io/acpaas-ui_react/ [**publiek**]. Wil je meer weten over het gebruik van deze componentenbibliotheek, bezoek dan de ACPaaS UI website: https://acpaas-ui.digipolis.be [**publiek**].
-
-Om het werk van ontwerpers te vereenvoudigen is een bibliotheek van ontwerpelementen overeenstemmend met deze componenten ter beschikking gesteld. Meer hierover is te vinden op de ACPaaS UI website: https://acpaas-ui.digipolis.be/docs/design [**publiek**].
-
-Verdere specifieke componenten en service libraries moeten door de partner voorzien worden en toegevoegd aan de ACPaaS front-end bibliotheek conform de technische guidelines:
-
-- De componenten worden app-onafhankelijk gemaakt zodat ze herbruikbaar zijn in andere projecten/apps.
-- Release management: de componenten worden geversioneerd via **semantic versioning**.
-- Toevoegingen aan ACPaaS UI volgen de contributierichtlijnen voor Angular en React, te vinden in de relevante repositories.
-- Componenten zijn bij voorkeur Open Source onder een MIT licentie en gepubliceerd op de open npmjs.com repository.
-- De code wordt via peer reviews van de front-end ontwikkelaars en/of technische architecten gevalideerd.
-
-Belangrijk: *het staat de partner vrij om een oplossing in een ander front-end framework voor te stellen. De partner is dan wel verplicht om de benodigde front-end componenten op een kwaliteitsvolle manier toe te voegen in de front-end bibliotheek (cfr. technische guidelines zoals hierboven beschreven). Op deze manier zijn deze componenten herbruikbaar voor toekomstige oplossingen. In de onderhandelingen wordt samen bekeken of dit een realistische piste is.*
-
-#### 2.2.4 Toegankelijkheid (**V**)
-Zie https://acpaas.digipolis.be/nl/docs/toegankelijkheid-websites-en-mobieleapps-einclusie-en-wcag [**publiek**].
-
-#### 2.2.5 Smart Widgets
-Naast de componentenbibliotheek bestaan er ook een aantal voorgebouwde en herbruikbare stukken functionaliteit, de **Smart Widgets**. Je kan alles vinden over het gebruik en ontwikkeling van de Smart Widgets op github: https://github.com/digipolisantwerp/smart-widgets
- 
-Waar mogelijk kan herbruikbare functionaliteit verpakt worden als Smart Widget en toegevoegd aan de **widget catalogus**, via de contributierichtlijnen te vinden op https://github.com/digipolisantwerp/smart-widgets/blob/master/CONTRIBUTING.md
-
-### 2.3. Backend
-#### 2.3.1. Algemeen
-Zie https://acpaas.digipolis.be/nl/docs/backend-technologieen [**publiek**].
+#### 2.2.3. Toegankelijkheid en WCAG (V)
+In overeenstemming met de [Europese richtlijn omtrent toegankelijkheid](https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016L2102&from=EN) dienen alle apps en websites toegankelijk gemaakt te worden volgens WCAG 2.1 niveau AA. Meer info op https://acpaas.digipolis.be/nl/docs/toegankelijkheid-websites-en-mobieleapps-einclusie-en-wcag [**publiek**].
 
 
-### 2.4. Databases (**V**)
-Zie https://acpaas.digipolis.be/nl/docs/backend-technologieen [**publiek**].
+### 2.3. Backend (V)
+Alle documentatie over de verschillende technologieën en database mogelijkheden is te vinden op https://acpaas.digipolis.be/nl/docs/backend-technologieen [**publiek**].
 
 
 ## 3. Ontwikkeltools
 ### 3.1. Application Lifecycle Management
 
-#### 3.1.1 Jira (**V**)
+#### 3.1.1 Jira (V)
 Nieuwe functionaliteiten worden in de vorm van epics en stories ingebracht in Jira. Hier gebeurt ook de bugtracking en projectopvolging. Gebruik van de Jira Workflow binnen Digipolis is verplicht.
 
-#### 3.1.2 Bitbucket (**V**)
+#### 3.1.2 BitBucket (V)
 Zowel de front- als backend code van iedere applicatie zit in een eigen Git Repository die beheerd wordt binnen BitBucket. Codewijzigingen worden via pull requests gereviseerd door 2 ontwikkelaars. Er worden zowel voor front- als backend 3 ontwikkelaars doorgegeven die als approver kunnen geselecteerd worden.
 
 Er moet dagelijks gecommit worden, vermijden om branches langer dan een paar dagen open te laten staan.
 
-#### 3.1.3 Bamboo (**V**)
+#### 3.1.3 Bamboo (V)
 Meer info over de opzet: https://bitbucket.antwerpen.be/projects/PLAT/repos/documentation/browse/Bamboo.md [**MW**]
 
 ### 3.2. Vagrant (**O**)
 voor lokale development: https://bitbucket.antwerpen.be/projects/ASTAD/repos/vagrant_chef_ruby/browse [**MW**]
+
 ### 3.3. Docker (**O**)
 Beschikbaar voor local development. Er is een traject bezig om Docker op te nemen in de Application Lifecycle Management tools.
+
 ### 3.4. App Config (**O**)
 Optioneel voor nieuwe apps: https://appconfig.antwerpen.be/ [**VPN**]
+
 
 ## 4. Testing
 Zie https://acpaas.digipolis.be/nl/docs/testing [**publiek**].
 
-## 5. Technische documentatie (**V**)
+
+## 5. Technische documentatie (V)
 API / applicatie documentatie beschikbaar stellen in **readme.md**, **swagger.json**, **changelog.md** formaat, verwijzing naar kibana monitor opnemen.
